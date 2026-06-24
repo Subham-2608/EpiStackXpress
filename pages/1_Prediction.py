@@ -26,8 +26,8 @@ __main__.predict_expression = predict_expression
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 MODEL_REGISTRY = {
-    "Control": os.path.join(BASE_DIR, "..", "static", "models", "stacking_ensemble_Mock.pkl"),
-    "Treatment": os.path.join(BASE_DIR, "..", "static", "models", "stacking_ensemble_RB.pkl"),
+    "Control": os.path.join(BASE_DIR, "static", "models", "stacking_ensemble_Mock.pkl"),
+    "Treatment": os.path.join(BASE_DIR, "static", "models", "stacking_ensemble_RB.pkl"),
 }
 
 # ─────────────────────────────────────────────────────────────────────────────
